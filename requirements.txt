@@ -2,10 +2,4 @@
 
 pandas == 2.2.2              # Installée via conda
 selenium == 4.31.0           # Installée via pip
-# builtin modules — pas besoin d'installation via pip :
-datetime == 3.12.7           # builtin
-time == 3.12.7               # builtin
-os == 3.12.7                 # builtin
-random == 3.12.7             # builtin
-logging == 3.12.7            # builtin
-re == 3.12.7                 # builtin
+pyyaml                       # Installé via pip
