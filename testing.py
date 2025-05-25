@@ -58,5 +58,16 @@ if __name__ == '__main__':
     """)
     # END THE PROCESS
 
-    time.sleep(600)
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    time.sleep(2)
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+    job_cards = driver.find_elements(By.CSS_SELECTOR, '.job-search-card')
+
+    card = job_cards[0]
+    job_url = card.find_element(By.CSS_SELECTOR, "a").get_attribute("href")
+    print(job_url)
+    print(card)
+
+    time.sleep(60)
     driver.quit()

@@ -1,2 +1,12 @@
 locations:
   - "Morocco"
+  - "France"
+  - "Canada"
+  - "China"
+
+job_titles:
+  - "Data Engineer"
+  - "Business Intelligence Analyst"
+  - "Machine Learning Engineer"
+  - "Cybersecurity Engineer"
+  - "Software Engineer"
